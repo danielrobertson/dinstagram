@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import PhotoCard from "./Components/PhotoCard";
+import CommentList from "./Components/CommentList";
 
 class App extends Component {
   render() {
-    return <PhotoCard />;
+    return (
+      <div>
+        <PhotoCard />
+        <CommentList />
+      </div>
+    );
   }
 }
 
